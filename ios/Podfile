@@ -9,6 +9,8 @@ end
 
 target 'Plugin' do
   capacitor_pods
+  # plugin pods
+  pod 'ChannelIOSDK', podspec: 'https://mobile-static.channel.io/ios/latest/framework.podspec'
 end
 
 target 'PluginTests' do
